@@ -6,9 +6,12 @@
 body {
   overflow-x: hidden;
   background-color: rgb(223, 223, 223);
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  width: 100%; /* Ensure body uses the full width */
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+  width: 100%;
+  /* Ensure body uses the full width */
 }
 
 .nav {
@@ -37,7 +40,7 @@ li {
   float: left;
   margin-left: 50px;
   margin-top: 30px;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -45,23 +48,32 @@ li {
   margin-left: 230px;
   margin-top: 26px;
   margin-right: 100px;
-  font-size: 29px;
+  font-size: 1.6rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-select {
-  color: black;
+#wes{
+  color: rgb(255, 255, 255);
   display: flex;
   float: left;
+  width: 150px;
+  background-color: transparent;
   margin-left: 50px;
+  border: none;
   margin-top: 30px;
-  font-size: 17px;
+  font-size: 1.3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-#et {
-  float: right;
-  margin-right: 150px;
+select {
+  color: rgb(0, 0, 0);
+  display: flex;
+  float: left;
+  width: 150px;
+  background-color: white;
+  margin-left: 50px;
+  border: none;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .img {
@@ -114,7 +126,7 @@ p {
   border-radius: 5px;
   margin-left: 400px;
   color: black;
-  font-size: 20px;
+  font-size: 1.2rem;
   padding: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -126,7 +138,7 @@ p {
   border-radius: 5px;
   margin-left: 670px;
   color: black;
-  font-size: 20px;
+  font-size: 1.2rem;
   padding: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -644,10 +656,16 @@ footer {
   height: 770px;
   background-color: #111111;
 }
-footer .sidefooter, footer .middlepart, footer .rightpart {
-  max-width: 100%; /* Ensure these elements do not overflow the footer */
-  width: 100%; /* Ensure the content is contained within the footer's width */
+
+footer .sidefooter,
+footer .middlepart,
+footer .rightpart {
+  max-width: 100%;
+  /* Ensure these elements do not overflow the footer */
+  width: 100%;
+  /* Ensure the content is contained within the footer's width */
 }
+
 .sidefooter,
 .middlepart,
 .rightpart {
@@ -707,23 +725,31 @@ h5 {
 }
 
 ul {
-  list-style-type: none; /* Remove default list style */
+  list-style-type: none;
+  /* Remove default list style */
   padding: 0;
-  margin: 0; /* Remove margin for proper alignment */
+  margin: 0;
+  /* Remove margin for proper alignment */
   display: flex;
-  flex-direction: column; /* Align the items vertically */
-  align-items: flex-start; /* Align items to the left */
-  margin-top: 70px; /* Adjust vertical space from the top */
+  flex-direction: column;
+  /* Align the items vertically */
+  align-items: flex-start;
+  /* Align items to the left */
+  margin-top: 70px;
+  /* Adjust vertical space from the top */
   margin-left: -230px;
 }
-ul li{
+
+ul li {
   margin-top: 15px;
 }
+
 ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
-  display: block; /* Make links behave as block elements */
+  display: block;
+  /* Make links behave as block elements */
 }
 
 ul li a:hover {
@@ -738,53 +764,172 @@ ul li a:hover {
   justify-content: center;
   /* text-align: center; */
 }
-h3{
-  margin-top:70px ;
+
+h3 {
+  margin-top: 70px;
   font-size: 1.7rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
   font-weight: 350;
   line-height: 50px;
 }
+
 .middlepart br {
   margin-bottom: 5px;
   /* Space between lines */
 }
-h2{
-  margin-top:30px ;
+
+h2 {
+  margin-top: 30px;
   font-size: 1.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 300;
   line-height: 40px;
 }
+
 .middlepart {
   color: white;
   text-decoration: none;
 }
 
 .rightpart {
-  position: relative; /* Set the parent container to relative positioning */
-  width: 100%; /* Make sure the container takes the full width */
+  position: relative;
+  /* Set the parent container to relative positioning */
+  width: 100%;
+  /* Make sure the container takes the full width */
 }
 
 #time {
   margin-top: 80px;
-  position: absolute; /* Position the button absolutely within the .rightpart */
-  top: 10px; /* Distance from the top of the container */
-  left: 40%; /* Horizontally center the button */
-  transform: translateX(-50%); /* Adjust for perfect centering */
-  background-color: transparent; /* Dark background color */
-  color: white; /* White text color */
+  position: absolute;
+  /* Position the button absolutely within the .rightpart */
+  top: 10px;
+  /* Distance from the top of the container */
+  left: 40%;
+  /* Horizontally center the button */
+  transform: translateX(-50%);
+  /* Adjust for perfect centering */
+  background-color: transparent;
+  /* Dark background color */
+  color: white;
+  /* White text color */
   font-size: 1.3rem;
   width: 300px;
   height: 50px;
-  border: 1px solid white; /* Remove the default border */
-  border-radius: 5px; /* Rounded corners */
-  z-index: 10; /* Ensure the button is above the image */
+  border: 1px solid white;
+  /* Remove the default border */
+  border-radius: 5px;
+  /* Rounded corners */
+  z-index: 10;
+  /* Ensure the button is above the image */
 }
+
 .rightpart img {
-  width: 100%; /* Ensure the image is responsive */
-  display: block; /* Removes unwanted space below the image */
-  margin-top: 30px; /* Optional: Add space if needed */
+  width: 100%;
+  /* Ensure the image is responsive */
+  display: block;
+  /* Removes unwanted space below the image */
+  margin-top: 30px;
+  /* Optional: Add space if needed */
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile view adjustments */
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  li {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  #big {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+
+  .img {
+    height: 400px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 100px;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .custom-button {
+    width: 80%;
+  }
+
+  .lined-text {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .people {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .circle-container {
+    margin-left: 0;
+  }
+
+  .circle {
+    width: 300px;
+    height: 300px;
+  }
+
+  .cardss {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Very small screens */
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .custom-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .cardss {
+    width: 100%;
+    max-width: 300px;
+  }
 }
