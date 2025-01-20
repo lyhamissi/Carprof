@@ -653,7 +653,7 @@ footer {
   box-sizing: border-box;
   width: 100%;
   /* Full width of the screen */
-  height: 770px;
+  height: 870px;
   background-color: #111111;
 }
 
@@ -831,7 +831,7 @@ h2 {
   /* Removes unwanted space below the image */
   margin-top: 30px;
   /* Optional: Add space if needed */
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 
 @media screen and (max-width: 768px) {
